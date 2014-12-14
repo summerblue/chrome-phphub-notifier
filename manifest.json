@@ -4,7 +4,7 @@
   "default_locale": "en",
   "version": "0.1",
   "background": {
-    "persistent": false,
+    // "persistent": false,
     "page": "background.html"
   },
   "permissions" : [
