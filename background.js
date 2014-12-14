@@ -18,6 +18,7 @@ function _isNotificationUrl(url) {
 }
 
 function _goToNotificationTab() {
+  _displayUnreadCount(0);
   console.log('Going to notification tab...');
   chrome.tabs.getAllInWindow(undefined, function(tabs) {
     for (var i = 0, tab; tab = tabs[i]; i++) {

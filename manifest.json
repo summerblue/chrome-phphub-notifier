@@ -4,7 +4,6 @@
   "default_locale": "en",
   "version": "0.2",
   "background": {
-    // "persistent": false,
     "page": "background.html"
   },
   "permissions" : [
