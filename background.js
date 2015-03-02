@@ -51,6 +51,9 @@ function _getTitle(num) {
 }
 
 function _displayUnreadCount(response) {
+  if (isNaN(response)) {
+	  response = 0;
+  }
   var unreadCount = parseInt(response);
   console.log('Get ' + unreadCount + ' unread notifications');
 
