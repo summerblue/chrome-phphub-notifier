@@ -2,7 +2,7 @@
   "name": "PHPHub Notifier",
   "description": "Notify you when interesting thing is happening at PHPHub.",
   "default_locale": "en",
-  "version": "0.4",
+  "version": "0.5",
   "background": {
     "page": "background.html"
   },
