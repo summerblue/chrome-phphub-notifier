@@ -51,10 +51,8 @@ function _getTitle(num) {
 }
 
 function _displayUnreadCount(response) {
-  if (isNaN(response)) {
-	  response = 0;
-  }
   var unreadCount = parseInt(response);
+  unreadCount = isNaN(unreadCount) ? 0 : unreadCount;
   console.log('Get ' + unreadCount + ' unread notifications');
 
   chrome.browserAction.setBadgeBackgroundColor({color: blue});
