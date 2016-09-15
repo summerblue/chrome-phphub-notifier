@@ -7,13 +7,13 @@
     "page": "background.html"
   },
   "permissions" : [
-    "*://phphub.org/*",
+    "*://laravel-china.org/*",
     "tabs",
     "webNavigation"
   ],
   "content_scripts": [
     {
-      "matches": ["https://phphub.org/*"],
+      "matches": ["https://laravel-china.org/*"],
       "css": ["style.css"],
       "js": ["config.js"]
     }

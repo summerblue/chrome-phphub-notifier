@@ -8,8 +8,8 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 });
 
 var GitHubNotification;
-var notificationCountUrl = 'https://phphub.org/notifications/count';
-var notificationUrl = 'https://phphub.org/notifications';
+var notificationCountUrl = 'https://laravel-china.org/notifications/count';
+var notificationUrl = 'https://laravel-china.org/notifications';
 var blue = [1, 128, 255, 255];
 var gray = [190, 190, 190, 230];
 
