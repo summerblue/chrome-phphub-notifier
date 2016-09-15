@@ -1,8 +1,8 @@
 {
-  "name": "PHPHub Notifier",
-  "description": "Notify you when interesting thing is happening at PHPHub.",
+  "name": "Laravel China Notifier",
+  "description": "Notify you when interesting thing is happening at Laravel China.",
   "default_locale": "en",
-  "version": "0.5",
+  "version": "0.6",
   "background": {
     "page": "background.html"
   },
